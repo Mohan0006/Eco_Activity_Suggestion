@@ -2,8 +2,18 @@ import tensorflow as tf
 from fastapi import FastAPI
 from pydantic import BaseModel
 import numpy as np
+from fastapi.middleware.cors import CORSMiddleware  # Import CORS middleware
 
 app = FastAPI()
+
+# Enable CORS for all origins (you can configure this to be more restrictive)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Use ["*"] to allow all origins, or specify specific origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Load the saved TensorFlow model
 model = tf.keras.models.load_model('./model')
