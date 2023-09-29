@@ -71,13 +71,16 @@ nature_activity_mapping = {
 
 @app.post("/predict/", response_model=OutputData)
 async def predict(input_data: InputData):
+    
+    print(input_data)
     input_array = tf.convert_to_tensor(input_data.data, dtype=tf.float32)
-    input_array = tf.expand_dims(input_array, axis=-1)
+    input_array = tf.reshape(input_array, (1, 5, 1, 1))
 
     # Ensure the input shape matches [1, 5, 1, 1]
+    print(input_array.shape)
     if input_array.shape != (1, 5, 1, 1):
         return {"prediction": []}  # Return an empty list as a valid response
-
+    
     # Perform inference
     prediction = model.predict(input_array)
     prediction = np.argsort(prediction, axis=1)[:, -4:]
