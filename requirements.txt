@@ -1,1 +1,4 @@
 fastapi[all]
+tensorflow
+pydantic
+numpy
