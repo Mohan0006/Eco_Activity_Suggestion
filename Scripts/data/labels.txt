@@ -1,0 +1,51 @@
+Calm - 0
+Little Breeze - 1
+Moderate Wind - 2
+Strong Wind - 3
+
+Sunny - 0
+Partly Cloudy - 1
+Rainy - 2
+Foggy - 3
+Snowy - 4
+
+Nature Sketching - 0
+Leave No Trace Camping - 1
+Photography - 2
+Stargazing - 3
+Native Plant Gardening - 4
+Environmental Advocacy - 5
+Staying Eco-Friendly Indoors - 6
+Wind-Powered Activities - 7
+Citizen Science - 8
+Fishing - 9
+Fog Photography - 10
+Environmental Education - 11
+Fog-Responsible Driving - 12
+Birdwatching - 13
+Nature Walks - 14
+Bicycling - 15
+Cloud Gazing - 16
+Outdoor Gardening - 17
+Clean-Up Initiatives - 18
+Outdoor Gardening - 19
+Zero-Waste Challenge - 20
+Community Gardens - 21
+Nature Photography - 22
+Outdoor Reading - 23
+Window Watching - 24
+Plan a Rainy-Day Garden Party - 25
+Rainy Photography - 26
+Rain Gauge Monitoring - 27
+Water Conservation - 28
+Environmental Cleanup - 29
+Energy-Efficient Appliances - 30
+Building a Snow Fort or Igloo - 31
+Ice Skating - 32
+Snowshoeing - 33
+Winter Birdwatching - 34
+Cross-Country Skiing - 35
+Sustainable Shopping - 36
+RainWater Harvesting - 37
+Solar Energy Exploration - 38
+Wildflower and Plant Identification - 39
